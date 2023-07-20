@@ -139,6 +139,7 @@ li a{
     align-items: center;
     justify-content: center;
     margin: 20px;
+    color: var(--dark-green);
 }
 
 .projects{
@@ -184,7 +185,6 @@ li a{
     background-size: cover;
     background-position: center;
 }
-
 .text-container{
     position: absolute;
     height:75px;
@@ -194,9 +194,10 @@ li a{
     bottom: 0;
     background-color: #fff;
     overflow: hidden;
+    border-radius: 10px;
 }
 .text-container:hover{
-    height:250px;
+    height:275px;
 }
 
 .name{
@@ -216,6 +217,7 @@ li a{
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+    color: #03590a;
 }
 
 /* ABOUT SECTION */
@@ -226,6 +228,16 @@ li a{
     height: auto;
     background-color: #f8f8f8;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.aboutme-header{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: var(--dark-green);
 }
 
 .about-section{
@@ -245,9 +257,11 @@ li a{
 
 .about-text{
     height: auto;
+    color: var(--mid-green);
     width: 40%;
     font-size: 1.5rem;
     margin-left: 100px;
+    margin-bottom: 10px;
 }
 
 .social-icons{
@@ -258,6 +272,10 @@ li a{
     width: 30%;
     margin: 25% 35%;
     padding-top: 30px;
+    color: #03590a;
+}
+.fa{
+    color:#03590a
 }
 
 /* MOBILE VIEW */
