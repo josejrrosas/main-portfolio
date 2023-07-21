@@ -187,21 +187,21 @@ li a{
 }
 .text-container{
     position: absolute;
-    height:75px;
+    height:15%;
     width: 100%;
     z-index: 2;
     left: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #f8f8f8;
     overflow: hidden;
     border-radius: 10px;
 }
 .text-container:hover{
-    height:275px;
+    height:75%;
 }
 
 .name{
-    margin-top: 10px;
+    margin: 10px;
     color:var(--dark-green);
     font-size: 2rem;
 }
@@ -332,6 +332,16 @@ li a{
         background-position: center;
     }
 
+    .text-container{
+        height:20%;
+    }
+
+    .name{
+        margin-top: 10px;
+        color:var(--dark-green);
+        font-size: 1.75rem;
+    }
+
     .about-container{
         display: flex;
         align-items: center;
@@ -343,6 +353,7 @@ li a{
         margin-top: 20px;
         height:300px;
         width:225px;
+        border-radius: 10px;
         background-image: url(./images/hero-img.jpeg);
         background-size: cover;
         background-position: center;
@@ -351,6 +362,7 @@ li a{
         margin-left:20px;
         width: 100%;
         font-size: .75rem;
+        padding:5%;
     }
     .social-icons i {
         font-size: 2rem;
